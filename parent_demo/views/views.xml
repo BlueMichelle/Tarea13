@@ -1,0 +1,32 @@
+<odoo>
+    <record id="modelo_parent_form" model="ir.ui.view">
+        <field name="name">modelo.parent.form</field>
+        <field name="model">modelo.parent</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="campo1"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record id="modelo_parent_tree" model="ir.ui.view">
+        <field name="name">modelo.parent.tree</field>
+        <field name="model">modelo.parent</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="campo1"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_modelo_parent" model="ir.actions.act_window">
+        <field name="name">Modelo Parent</field>
+        <field name="res_model">modelo.parent</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_modelo_parent_root" name="Parent Demo" sequence="10"/>
+    <menuitem id="menu_modelo_parent" parent="menu_modelo_parent_root" action="action_modelo_parent" sequence="10"/>
+</odoo>

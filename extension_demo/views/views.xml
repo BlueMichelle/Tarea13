@@ -1,0 +1,12 @@
+<odoo>
+    <record id="modelo_parent_form_inherit" model="ir.ui.view">
+        <field name="name">modelo.parent.form.inherit</field>
+        <field name="model">modelo.parent</field>
+        <field name="inherit_id" ref="parent_demo.modelo_parent_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='campo1']" position="after">
+                <field name="campo2"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
