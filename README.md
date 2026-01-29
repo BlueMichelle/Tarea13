@@ -1,6 +1,4 @@
-# TTAREA 13 – EXTENSIÓN DE MÓDULOS
-
-Este repositorio contiene la solución para la Tarea 13: Extensión de Módulos en Odoo.
+# TAREA 13 – EXTENSIÓN DE MÓDULOS
 
 ## Contenido
 
@@ -32,17 +30,17 @@ El proyecto consta de dos módulos de Odoo:
 
 ## Instalación
 
-1.  Clona este repositorio en tu carpeta de `addons` de Odoo.
-2.  Actualiza la lista de aplicaciones en Odoo (modo desarrollador).
+1.  Clona este repositorio en la carpeta de `addons` de Odoo.
+2.  Actualiza la lista de aplicaciones en Odoo.
 3.  Instala primero el módulo **Parent Demo**.
 4.  Instala después el módulo **Extension Demo**.
 
 ## Verificación
 
 Para verificar que la extensión funciona correctamente:
-1.  Ve al menú **Parent Demo** en Odoo.
-2.  Crea un nuevo registro.
-3.  Verás que el campo original se llama "Nuevo Campo 1" (en lugar de "Campo 1") y aparece un campo adicional "Campo 2".
+1.  Ir al menú **Parent Demo** en Odoo.
+2.  Crear un nuevo registro.
+3.  Ve,os que el campo original se llama "Nuevo Campo 1" (en lugar de "Campo 1") y aparece un campo adicional "Campo 2".
 
 ## Detalles Técnicos
 
